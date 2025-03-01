@@ -1,6 +1,5 @@
 /* typography.css */
 
-/* Define your typography tokens here */
 :root {
   --font-primary: "Martian Mono", monospace;
   --font-secondary: "Inter", sans-serif;
@@ -14,7 +13,7 @@
   --font-size-base: 16px;
   --font-size-sm: 14px;
 
-  --text-color: var(--color-neutral-900); /* Adjust as needed */
+  --text-color: var(--color-neutral-900);
 }
 
 .h1,
@@ -53,7 +52,7 @@
   color: var(--text-color);
 }
 
-.h5,
+.h5-bold,
 .heading-5 {
   font-family: var(--font-secondary);
   font-size: var(--font-size-xl);
