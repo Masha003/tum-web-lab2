@@ -17,30 +17,63 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <section class="container">
-      <header>
+    <section class="hero-section">
+      <header class="container">
         <nav>
           <a href="/">
             <img src="/assets/images/logo.svg" alt="Tech Book Club Logo" />
           </a>
         </nav>
       </header>
-      <div class="hero-section">
-        <div>
-          <h1 class="heading-1">Join the ultimate tech book club</h1>
+      <div class="container hero-content">
+        <div class="hero-content-col">
+          <h1 class="heading-gradient heading-1">
+            Join the ultimate tech book club
+          </h1>
           <p class="heading-5 hero-description">
             Turn your reading time into learning time with fellow tech
             enthusiasts. Get curated recommendations, join vibrant discussions,
             and level up your skills one chapter at a time.
           </p>
-          <button class="btn btn-primary">
-            <a href="#subscription" class="btn-link">
-              <span class="heading-6">Review membership options</span>
-              <img src="/assets/images/icon-arrow-down.svg" alt="Arrow Down" />
-            </a>
-          </button>
+          <a href="#subscription" class="btn btn-primary btn-link cta-btn">
+            <span class="heading-6">Review membership options</span>
+            <img src="/assets/images/icon-arrow-down.svg" alt="Arrow Down" />
+          </a>
+          <div class="members">
+            <img
+              src="/assets/images/image-avatars.webp"
+              alt="Member Avatar"
+              class="members-picture"
+            />
+            <div class="members-info">
+              <div class="stars-container">
+                <img src="/assets/images/icon-star.svg" alt="Rating star" />
+                <img src="/assets/images/icon-star.svg" alt="Rating star" />
+                <img src="/assets/images/icon-star.svg" alt="Rating star" />
+                <img src="/assets/images/icon-star.svg" alt="Rating star" />
+                <img src="/assets/images/icon-star.svg" alt="Rating star" />
+              </div>
+              <span class="caption">200+ developers joined already</span>
+            </div>
+          </div>
         </div>
-        <div></div>
+        <div class="hero-content-col">
+          <img
+            src="/assets/images/image-hero-desktop.webp"
+            alt="People reading in library."
+            class="hero-image hero-image-desktop"
+          />
+          <img
+            src="/assets/images/image-hero-tablet.webp"
+            alt="People reading in library."
+            class="hero-image hero-image-tablet"
+          />
+          <img
+            src="/assets/images/image-hero-mobile.webp"
+            alt="People reading in library."
+            class="hero-image hero-image-mobile"
+          />
+        </div>
       </div>
     </section>
 
