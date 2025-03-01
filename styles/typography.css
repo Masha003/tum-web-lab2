@@ -1,0 +1,131 @@
+/* typography.css */
+
+/* Define your typography tokens here */
+:root {
+  --font-primary: "Martian Mono", monospace;
+  --font-secondary: "Inter", sans-serif;
+  --font-size-4xl: 62px;
+  --font-size-4xl-mobile: 38px;
+  --font-size-3xl: 50px;
+  --font-size-3xl-mobile: 34px;
+  --font-size-2xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-large: 18px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+
+  --text-color: var(--color-neutral-900); /* Adjust as needed */
+}
+
+.h1,
+.heading-1 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-4xl-mobile);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-color);
+}
+
+.h2,
+.heading-2 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-3xl-mobile);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-color);
+}
+
+.h3,
+.heading-3 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-color);
+}
+
+.h4,
+.heading-4 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--text-color);
+}
+
+.h5,
+.heading-5 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.h6,
+.heading-6 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-large);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-color);
+}
+
+.body-text,
+.paragraph {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-color);
+}
+
+.caption {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  line-height: var(--line-height-caption);
+  color: var(--text-color);
+}
+
+/* Tablet styles (768px and up) */
+@media screen and (min-width: 768px) {
+  .h1,
+  .heading-1 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-4xl-mobile);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text-color);
+  }
+
+  .h2,
+  .heading-2 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-3xl-mobile);
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--text-color);
+  }
+}
+
+/* Desktop styles (1440px and up) */
+@media screen and (min-width: 1440px) {
+  .h1,
+  .heading-1 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-4xl);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text-color);
+  }
+
+  .h2,
+  .heading-2 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-3xl-mobile);
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--text-color);
+  }
+}
