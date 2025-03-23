@@ -13,6 +13,10 @@ Tech Book Club is designed to attract tech enthusiasts and developers by creatin
 - Membership Options: Details various membership tiers, including pricing and unique benefits.
 - Testimonials: Displays feedback from community members to build trust and encourage engagement.
 
+## Website Mascot
+
+The Tech Book Club features an animated book character that bounces in the bottom-right corner of the screen. When users hover over the mascot, it displays a friendly welcome message inviting visitors to join the club.
+
 ## Screenshots
 
 Desktop view:
