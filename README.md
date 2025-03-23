@@ -18,10 +18,9 @@ Tech Book Club is designed to attract tech enthusiasts and developers by creatin
 Desktop view:
 ![alt text](image.png)
 
-
 ## Live Demo
 
-View the live demo [here](https://masha003.github.io./)
+View the live demo [here](tum-web-lab2-ten.vercel.app)
 
 ## Notes
 
