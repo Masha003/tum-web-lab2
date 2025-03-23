@@ -2,7 +2,7 @@ body {
   font-family: var(--font-secondary);
 }
 
-.container {
+.tbc-container {
   width: 100%;
   max-width: 343px;
   margin: 0 auto;
@@ -10,14 +10,14 @@ body {
 }
 
 /* Hero section start */
-.hero-section {
+.tbc-hero-section {
   background-image: url("../assets/images/pattern-light-bg.svg");
   background-color: var(--color-neutral-100);
   padding-bottom: 80px;
   margin-bottom: 32px;
 }
 
-.btn {
+.tbc-btn {
   position: relative;
   display: inline-flex; /* Ensures the element sizes to its content */
   padding: 20px 23px;
@@ -34,7 +34,7 @@ body {
   box-sizing: border-box;
 }
 
-.btn::after {
+.tbc-btn::after {
   content: "";
   position: absolute;
   top: 0;
@@ -47,11 +47,11 @@ body {
   z-index: -1;
 }
 
-.btn:hover::after {
+.tbc-btn:hover::after {
   opacity: 1;
 }
 
-.btn-link {
+.tbc-btn-link {
   display: inline-flex;
   align-items: center;
   gap: 16px;
@@ -60,34 +60,35 @@ body {
   z-index: 1;
 }
 
-.btn-icon {
+.tbc-btn-icon {
   width: 20px;
   height: 20px;
 }
 
-.cta-btn {
+.tbc-cta-btn {
   margin-bottom: 20px;
 }
 
-header {
+.tbc-header {
   padding-top: 24px;
 }
 
-nav {
+.tbc-nav {
   margin-bottom: 48px;
+  padding-top: 24px;
 }
 
-.hero-content {
+.tbc-hero-content {
   display: flex;
   flex-direction: column;
   gap: 64px;
 }
 
-.hero-content-col {
+.tbc-hero-content-col {
   width: 100%;
 }
 
-.heading-gradient {
+.tbc-heading-gradient {
   background: var(--text-gradient);
   background-clip: text;
   -webkit-background-clip: text;
@@ -96,36 +97,36 @@ nav {
   margin-bottom: 24px;
 }
 
-.hero-description {
+.tbc-hero-description {
   font-weight: 400;
   color: var(--color-neutral-700);
   margin-bottom: 32px;
 }
 
-.members {
+.tbc-members {
   display: flex;
   align-items: center;
   gap: 12px;
   color: var(--color-neutral-700);
 }
 
-.members-picture {
+.tbc-members-picture {
   width: 110px;
   height: 40px;
 }
 
-.stars-container {
+.tbc-stars-container {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
 }
 
-.hero-image-tablet,
-.hero-image-desktop {
+.tbc-hero-image-tablet,
+.tbc-hero-image-desktop {
   display: none;
 }
 
-.hero-image {
+.tbc-hero-image {
   width: 100%;
   border-radius: 5px;
 }
@@ -133,50 +134,50 @@ nav {
 /* Hero section end */
 
 /* FEATURE 1 section start */
-.feature-section {
+.tbc-feature-section {
   padding: 32px 0;
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
-.feature-content {
+.tbc-feature-content {
   width: 100%;
 }
 
-.feature-item {
+.tbc-feature-item {
   display: flex;
   align-items: center;
   gap: 14px;
   margin-bottom: 24px;
 }
 
-.feature-heading:last-child {
+.tbc-feature-heading:last-child {
   margin-bottom: 0;
 }
 
-.feature-item span {
+.tbc-feature-item span {
   font-weight: 400;
 }
 
-.feature-heading {
+.tbc-feature-heading {
   margin-bottom: 24px;
   letter-spacing: -2px;
 }
 
-.feature-image {
+.tbc-feature-image {
   width: 100%;
   border-radius: 10px;
 }
 
-.feature-image-tablet,
-.feature-image-desktop {
+.tbc-feature-image-tablet,
+.tbc-feature-image-desktop {
   display: none;
 }
 /* FEATURE 1 section end */
 
 /* FEATURE 2 section start */
-.feature-description {
+.tbc-feature-description {
   font-weight: 400;
   color: var(--color-neutral-700);
 
@@ -188,7 +189,7 @@ nav {
 /* FEATURE 2 section end */
 
 /* JOURNEY section start */
-.journey-section {
+.tbc-journey-section {
   padding: 32px 16px;
   background-image: url("../assets/images/pattern-light-bg.svg");
   background-color: var(--color-neutral-100);
@@ -196,24 +197,24 @@ nav {
   margin-bottom: 64px;
 }
 
-.journey-heading {
+.tbc-journey-heading {
   text-align: left;
   margin-bottom: 32px;
 }
 
-.journey-steps {
+.tbc-journey-steps {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-.step-item {
+.tbc-step-item {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.step-item span {
+.tbc-step-item span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -225,72 +226,72 @@ nav {
 /* JOURNEY section end */
 
 /* MEMBERSHIP START*/
-.membership-section {
+.tbc-membership-section {
   margin-bottom: 64px;
 }
 
-.membership-heading {
+.tbc-membership-heading {
   text-align: left;
   margin-bottom: 24px;
 }
 
-.membership-options {
+.tbc-membership-options {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 
-.option-card {
+.tbc-option-card {
   border-radius: 8px;
   border: 1px solid var(--color-neutral-200);
   padding: 24px;
   width: 100%;
 }
 
-.card-content {
+.tbc-card-content {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-bottom: 32px;
 }
 
-.card-content .month {
+.tbc-card-content .month {
   font-weight: 400;
   color: var(--color-neutral-700);
 }
 
-.separator {
+.tbc-separator {
   height: 1px;
   background-color: var(--color-neutral-200);
 }
 
-.card-btn {
+.tbc-card-btn {
   width: 100%;
   justify-content: center;
 }
 
-.pro-card {
+.tbc-pro-card {
   background-color: var(--color-neutral-100);
 }
 /* MEMBERSHIP END */
 
 /* TESTIMONIALS START */
-.testimonial-section {
+.tbc-testimonial-section {
   margin-bottom: 64px;
 }
 
-.testimonial-section .stars-container {
+.tbc-testimonial-section .tbc-stars-container {
   margin-bottom: 32px;
 }
 
-.testimonial-text {
+.tbc-testimonial-text {
   font-size: var(--font-size-2xl);
   font-family: var(--font-primary);
   font-weight: 600;
   line-height: 1.1;
 }
 
-.testimonial-section .author {
+.tbc-testimonial-section .tbc-author {
   display: inline-block;
   font-weight: 400;
   margin-top: 32px;
@@ -299,18 +300,18 @@ nav {
 /* TESTIMONIALS END */
 
 /* FOOTER SECTION START*/
-.footer-section {
+.tbc-footer-section {
   background-color: var(--color-neutral-900);
   padding-top: 48px;
 }
 
-.footer-section h2 {
+.tbc-footer-section h2 {
   color: var(--color-neutral-white);
   margin-bottom: 24px;
   text-align: center;
 }
 
-.footer-content {
+.tbc-footer-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -318,7 +319,7 @@ nav {
   padding-bottom: 64px;
 }
 
-.btn-footer {
+.tbc-btn-footer {
   background-color: transparent;
   color: var(--color-neutral-white);
   border-color: var(--color-neutral-white);
@@ -326,88 +327,90 @@ nav {
   margin-top: 40px;
 }
 
-.btn-footer span {
+.tbc-btn-footer span {
   color: var(--color-neutral-white);
 }
 
-.footer-content .members .caption {
+.tbc-footer-content .tbc-members .caption {
   color: var(--color-neutral-white);
 }
 
-.footer-content .members {
+.tbc-footer-content .tbc-members {
   margin-top: 24px;
 }
 
-.footer-section .copyright {
+.tbc-footer-section .tbc-copyright {
   padding: 30px 0;
   text-align: center;
+  color: var(--color-neutral-white);
 }
 /* FOOTER SECTION END */
 
 /* Tablet styles (768px and up) */
 @media screen and (min-width: 768px) {
-  .container {
+  .tbc-container {
     max-width: 704px;
   }
 
-  header {
+  .tbc-header {
     padding-top: 32px;
   }
 
-  nav {
+  .tbc-nav {
     margin-bottom: 64px;
+    padding-top: 32px;
   }
 
-  .hero-section {
+  .tbc-hero-section {
     margin-bottom: 40px;
   }
 
   /* Hero section start */
-  .hero-image {
+  .tbc-hero-image {
     border-radius: 10px;
   }
 
-  .hero-image-mobile,
-  .hero-image-desktop {
+  .tbc-hero-image-mobile,
+  .tbc-hero-image-desktop {
     display: none;
   }
 
-  .hero-image-tablet {
+  .tbc-hero-image-tablet {
     display: block;
   }
   /* Hero section end */
 
   /* FEATURE 1 section start */
-  .feature-section {
+  .tbc-feature-section {
     padding: 40px 0;
   }
 
-  .feature-heading {
+  .tbc-feature-heading {
     margin-bottom: 34px;
   }
 
-  .feature-image {
+  .tbc-feature-image {
     border-radius: 25px;
   }
 
-  .feature-image-tablet {
+  .tbc-feature-image-tablet {
     display: block;
   }
 
-  .feature-image-mobile,
-  .feature-image-desktop {
+  .tbc-feature-image-mobile,
+  .tbc-feature-image-desktop {
     display: none;
   }
 
   /* FEATURE 1 section end */
 
   /* JOURNEY start */
-  .journey-section {
+  .tbc-journey-section {
     padding: 40px 32px;
     margin-bottom: 80px;
   }
 
-  .journey-heading {
+  .tbc-journey-heading {
     text-align: left;
     margin-bottom: 48px;
   }
@@ -415,25 +418,25 @@ nav {
   /* JOURNEY end */
 
   /* MEMBERSHIP START*/
-  .membership-section {
+  .tbc-membership-section {
     margin-bottom: 80px;
   }
 
-  .membership-heading {
+  .tbc-membership-heading {
     margin-bottom: 40px;
   }
 
   /* MEMBERSHIP END */
 
   /* TESTTIMONIAL START*/
-  .testimonial-text {
+  .tbc-testimonial-text {
     text-align: center;
     line-height: 1.3;
   }
   /* TESTIMONIAL END */
 
   /* FOOTER START */
-  .footer-section {
+  .tbc-footer-section {
     padding-top: 64px;
   }
   /* FOOTER END */
@@ -441,144 +444,145 @@ nav {
 
 /* Desktop styles (1440px and up) */
 @media screen and (min-width: 1440px) {
-  .container {
+  .tbc-container {
     max-width: 1174px;
   }
 
-  nav {
+  .tbc-nav {
     margin-bottom: 80px;
+    padding-top: 32px;
   }
 
-  .hero-section {
+  .tbc-hero-section {
     margin-bottom: 60px;
   }
 
   /* Hero section start */
-  .hero-content {
+  .tbc-hero-content {
     flex-direction: row;
   }
 
-  .hero-content-col {
+  .tbc-hero-content-col {
     width: 50%;
   }
 
-  .hero-image {
+  .tbc-hero-image {
     border-radius: 8px;
   }
 
-  .hero-image-mobile,
-  .hero-image-tablet {
+  .tbc-hero-image-mobile,
+  .tbc-hero-image-tablet {
     display: none;
   }
 
-  .hero-image-desktop {
+  .tbc-hero-image-desktop {
     display: block;
   }
   /* Hero section end */
 
   /* FEATURE 1 section start */
-  .feature-section {
+  .tbc-feature-section {
     padding: 60px 0;
     flex-direction: row-reverse;
     align-items: center;
     gap: 80px;
   }
 
-  .feature-content {
+  .tbc-feature-content {
     width: 50%;
   }
 
-  .feature-image {
+  .tbc-feature-image {
     border-radius: 20px;
   }
 
-  .feature-image-desktop {
+  .tbc-feature-image-desktop {
     display: block;
   }
 
-  .feature-image-tablet,
-  .feature-image-mobile {
+  .tbc-feature-image-tablet,
+  .tbc-feature-image-mobile {
     display: none;
   }
   /* FEATURE 1 section end */
 
-  .second-feature {
+  .tbc-second-feature {
     flex-direction: row;
   }
 
   /* JOURNEY start */
-  .journey-section {
+  .tbc-journey-section {
     padding: 80px 60px;
     margin-bottom: 120px;
   }
 
-  .journey-heading {
+  .tbc-journey-heading {
     text-align: center;
     margin-bottom: 64px;
   }
 
-  .journey-steps {
+  .tbc-journey-steps {
     flex-direction: row;
     gap: 48px;
   }
 
-  .step-item {
+  .tbc-step-item {
     position: relative;
   }
 
-  .step-item::after {
+  .tbc-step-item::after {
     content: url("../assets/images/pattern-arrow.svg");
     position: absolute;
     top: 0;
     right: 0;
   }
 
-  .step-item:last-child::after {
+  .tbc-step-item:last-child::after {
     display: none;
   }
 
   /* JOURNEY end */
 
   /* MEMBERSHIP START*/
-  .membership-section {
+  .tbc-membership-section {
     padding: 0 100px;
     width: 100%;
     margin-bottom: 120px;
   }
 
-  .membership-options {
+  .tbc-membership-options {
     flex-wrap: nowrap;
   }
 
-  .membership-heading {
+  .tbc-membership-heading {
     text-align: center;
     margin-bottom: 64px;
   }
 
-  .option-card {
+  .tbc-option-card {
     width: calc(100% / 3);
   }
 
   /* MEMBERSHIP END */
 
   /* TESTIMONIALS START */
-  .testimonial-section .stars-container {
+  .tbc-testimonial-section .tbc-stars-container {
     justify-content: center;
   }
 
-  .testimonial-section .author {
+  .tbc-testimonial-section .tbc-author {
     display: block;
     text-align: center;
   }
   /* TESTIMONIALS END */
 
   /* FOOTER START */
-  .footer-section {
+  .tbc-footer-section {
     padding-top: 80px;
     color: var(--color-neutral-white);
   }
 
-  .footer-content {
+  .tbc-footer-content {
     max-width: 753px;
     width: 100%;
   }
