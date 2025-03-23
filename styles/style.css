@@ -195,6 +195,7 @@ body {
   background-color: var(--color-neutral-100);
   border-radius: 12px;
   margin-bottom: 64px;
+  display: none;
 }
 
 .tbc-journey-heading {
@@ -515,6 +516,7 @@ body {
   .tbc-journey-section {
     padding: 80px 60px;
     margin-bottom: 120px;
+    display: block;
   }
 
   .tbc-journey-heading {
