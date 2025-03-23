@@ -354,7 +354,7 @@ body {
   position: fixed;
   right: 60px;
   bottom: 100px;
-  animation: slide-in 1s ease-in-out;
+  animation: slide-in 3s ease-in-out;
 }
 
 .tbc-mascot-container {
@@ -372,7 +372,7 @@ body {
   padding: 20px;
   background-color: var(--color-neutral-100);
   border-radius: 8px;
-  right: 100%;
+  right: 95%;
   box-shadow: 0 8px 16px rgba(6, 38, 48, 0.3), 0 4px 6px rgba(6, 38, 48, 0.15);
 }
 
