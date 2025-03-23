@@ -10,6 +10,7 @@ Tech Book Club is designed to attract tech enthusiasts and developers by creatin
 
 - Hero Section: Features a compelling header with a call-to-action to invite users to join the community.
 - Feature Sections: Showcases the benefits of joining the club, including curated book selections and exclusive community events.
+- Tech Journey: Presents the steps to join the Tech Book Club. This section is hidden for mobile and tablet screens, and is visible on desktop.
 - Membership Options: Details various membership tiers, including pricing and unique benefits.
 - Testimonials: Displays feedback from community members to build trust and encourage engagement.
 
