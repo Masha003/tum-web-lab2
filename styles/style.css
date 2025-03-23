@@ -1,5 +1,6 @@
 body {
   font-family: var(--font-secondary);
+  position: relative;
 }
 
 .tbc-container {
@@ -347,6 +348,73 @@ body {
   color: var(--color-neutral-white);
 }
 /* FOOTER SECTION END */
+
+/* Mascot section start */
+.tbc-mascot-section {
+  position: fixed;
+  right: 60px;
+  bottom: 100px;
+  animation: slide-in 1s ease-in-out;
+}
+
+.tbc-mascot-container {
+  position: relative;
+  display: flex;
+}
+
+.tbc-mascot-text {
+  position: absolute;
+  visibility: hidden;
+  opacity: none;
+  transition: opacity 1s ease-out;
+  margin-bottom: 20px;
+  display: block;
+  padding: 20px;
+  background-color: var(--color-neutral-100);
+  border-radius: 8px;
+  right: 100%;
+  box-shadow: 0 8px 16px rgba(6, 38, 48, 0.3), 0 4px 6px rgba(6, 38, 48, 0.15);
+}
+
+.tbc-mascot-image {
+  width: 200px;
+  height: 200px;
+  animation: bounce2 2s ease infinite;
+}
+
+.tbc-mascot-image:hover ~ .tbc-mascot-text {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+@keyframes bounce2 {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(500px);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+/* Mascto section end */
 
 /* Tablet styles (768px and up) */
 @media screen and (min-width: 768px) {
