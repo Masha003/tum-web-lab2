@@ -18,11 +18,6 @@ Tech Book Club is designed to attract tech enthusiasts and developers by creatin
 Desktop view:
 ![alt text](image.png)
 
-Tablet view:
-![alt text](image-1.png)
-
-Mobile view:
-![alt text](image-2.png)
 
 ## Live Demo
 
